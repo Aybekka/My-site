@@ -1,0 +1,80 @@
+/****************TAG SELECTORS**************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {}
+
+/**************CLASS SELECTORS***************/
+.topContainer {
+  position: relative;
+  background-color:#94d3ac ;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  background-color: #ccedd2;
+}
+
+.bottomContainer {
+  padding-top: 100px;
+  background-color:#effcef ;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  /*background-color: #655c56;*/
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain-first {
+  position: relative;
+  top:4px;
+}
+.Me{
+  padding-top: 50px;
+  width: 250px;
+  border-radius: 100%;
+
+}
+.tek{
+  background-color: #ccedd2;
+}
+.cift{
+  background-color:#effcef ;
+}
+.Code{
+  width: 150px;
+}
+.btn{
+  padding-bottom: 20px;
+}
+.Once {
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+/****************ID SELECTORS*****************/
