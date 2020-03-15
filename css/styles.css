@@ -1,100 +1,144 @@
+/****************TAG SELECTORS**************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514e;
+  line-height: 1.5;
+}
+h1 {
+  line-height: 1.5;
+  font-size: 552.5%;
+  color:#66BFBF;
+  margin:50px auto 0px auto;
+  font-family: 'Merriweather', serif;
+}
+h2 {
+  margin:0px auto 50px auto;
+  font-size: 1.5rem;
+  color:#66BFBF;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 10px;
+}
+h3 {
+font-family: 'Merriweather', serif;
+  color:#11999E;
+}
+hr{
+  border-bottom: 0px;
+  border-top:6px dotted #7a4d1d;
+  width:4%;
+  margin:100px auto;
+}
+a{
+  text-decoration: none;
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color:#eaf6f6;
+}
+div {}
 
-  body {
-    background-color: #6ba8a9;
-  }
-  hr{
-    border-style: none;
-    border-top:5px dotted #f8b400;
+/**************CLASS SELECTORS***************/
+.copyright{
+  color:#EAF6F6;
+  margin:40px auto;
+}
+.contact-message{
+  width: 40%;
+  margin:40px auto 60px;
+}
+.intro-message{
+  margin:auto;
+  width: 40%;
+}
+.skill-row{
+  width:50%;
+  margin:50px auto;
+  text-align: left;
 
-    width:10%;
-  }
-  img{
-    height:150px;
-    border-radius:50%;
-  }
-  #myImg {
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.5s;
-  }
+}
+.topContainer {
+  position: relative;
+  background-color:#EAF6F6 ;
+  padding:100px 0px 0px;
+}
 
-  #myImg:hover {opacity: 0.7;}
+.middleContainer {
+  margin:100px 0px;
 
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+}
 
-  /* Modal Content (image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 150px;
-  }
+.bottomContainer {
+  padding: 50px 0 20px;
+  background-color:#66BFBF ;
+}
 
-  /* Caption of Modal Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-  }
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
 
-  /* Add Animation */
-  .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
+.bottom-cloud {
+  /*background-color: #655c56;*/
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
 
-  @keyframes zoom {
-    from {transform: scale(0.1)}
-    to {transform: scale(1)}
-  }
+.mountain-first {
+  position: relative;
+  top:4px;
+}
+.Me{
+  width:250px;
+  border-radius: 100%;
 
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
+}
+.code-img{
+  width: 25%;
+  float:left;
+  padding:15px 15px 0px 15px;
+}
+.music-img{
+  width: 25%;
+  float:right;
+  padding:15px 15px 0px 15px;
+}
+.Once {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.255rem;
+}
+.btn {
+  background:#11cdd4;
+  background-image: -webkit-linear-gradient(top,#11cdd4,#11999e);
+  background-image: -moz-linear-gradient(top,#11cdd4,#11999e);
+  background-image: -ms-linear-gradient(top,#11cdd4,#11999e);
+  background-image: -o-linear-gradient(top,#11cdd4,#11999e);
+  background-image: linear-gradient(to bottm,#11cdd4,#11999e);
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:8px;
+  font-family: 'Montserrat', sans-serif;
+  color:#ffffff;
+  font-size: 20px;
+  padding:10px 20px;
+  text-decoration: none;
 
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
 
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-  h1{
+.btn:hover {
+  background:#30e3cb;
+  background-image: -webkit-linear-gradient(top,#30e3cb,#2bc4ad);
+  background-image: -moz-linear-gradient(top,#30e3cb,#2bc4ad);
+  background-image: -ms-linear-gradient(top,#30e3cb,#2bc4ad);
+  background-image: -o-linear-gradient(top,#30e3cb,#2bc4ad);
+  background-image: linear-gradient(to bottm,#30e3cb,#2bc4ad);
+  text-decoration: none;
 
-    color: #464159;
-    font-style: italic;
-  }
-  h3{
-    color: #464159;
-  }
+}
+
+
+/****************ID SELECTORS*****************/
