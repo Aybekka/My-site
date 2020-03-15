@@ -1,80 +1,100 @@
-/****************TAG SELECTORS**************/
-body {
-  margin: 0px;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
 
-h1 {
-  margin-top: 0;
-  font-family: 'Montserrat', sans-serif;
-}
+  body {
+    background-color: #6ba8a9;
+  }
+  hr{
+    border-style: none;
+    border-top:5px dotted #f8b400;
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-}
+    width:10%;
+  }
+  img{
+    height:150px;
+    border-radius:50%;
+  }
+  #myImg {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-}
+  #myImg:hover {opacity: 0.7;}
 
-div {}
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
 
-/**************CLASS SELECTORS***************/
-.topContainer {
-  position: relative;
-  background-color:#94d3ac ;
-  padding-top: 100px;
-}
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 150px;
+  }
 
-.middleContainer {
-  background-color: #ccedd2;
-}
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
 
-.bottomContainer {
-  padding-top: 100px;
-  background-color:#effcef ;
-}
+  /* Add Animation */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
+  @keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+  }
 
-.bottom-cloud {
-  /*background-color: #655c56;*/
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
 
-.mountain-first {
-  position: relative;
-  top:4px;
-}
-.Me{
-  padding-top: 50px;
-  width: 250px;
-  border-radius: 100%;
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-}
-.tek{
-  background-color: #ccedd2;
-}
-.cift{
-  background-color:#effcef ;
-}
-.Code{
-  width: 150px;
-}
-.btn{
-  padding-bottom: 20px;
-}
-.Once {
-  font-family: 'Sacramento', cursive;
-  font-size: 3em;
-  margin-bottom: 0;
-}
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  h1{
 
-/****************ID SELECTORS*****************/
+    color: #464159;
+    font-style: italic;
+  }
+  h3{
+    color: #464159;
+  }
